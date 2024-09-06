@@ -16,11 +16,11 @@ This project extracts text from images using OpenCV and Tesseract OCR.
    ```bash
    pip install opencv-python pytesseract
    
-2.Install Tesseract-OCR: Download and install Tesseract.
+2. **Install Tesseract-OCR**: Download and install Tesseract.
 
-3. Set Tesseract Path: Update the script with the path to your Tesseract executable:
-python
-pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+3. **Set Tesseract Path**: Update the script with the path to your Tesseract executable:
+   ```bash
+   pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
 ## Usage
 
